@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#cccccc"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="3dp"
+        android:text="联系我们"
+        android:textColor="#4a86e8"
+        android:textSize="12sp" />
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/rb_map"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:button="@null"
+            android:gravity="left"
+            android:padding="5dp"
+            android:text="定位"
+            android:textColor="@color/txt_set_selector"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rb_call"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#fff"
+            android:button="@null"
+            android:gravity="left"
+            android:padding="5dp"
+            android:text="联系电话：18610020187"
+            android:textColor="@color/txt_set_selector"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="3dp"
+        android:text="软件设置"
+        android:textColor="#4a86e8"
+        android:textSize="12sp" />
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:button="@null"
+            android:gravity="left"
+            android:padding="5dp"
+            android:text="修改密码"
+            android:textColor="@color/txt_set_selector"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#fff"
+            android:button="@null"
+            android:gravity="left"
+            android:padding="5dp"
+            android:text="注册"
+            android:textColor="@color/txt_set_selector"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="3dp"
+        android:text="会员设置"
+        android:textColor="#4a86e8"
+        android:textSize="12sp" />
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:button="@null"
+            android:gravity="left"
+            android:padding="5dp"
+            android:text="VIP服务"
+            android:textColor="@color/txt_set_selector"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#fff"
+            android:button="@null"
+            android:gravity="left"
+            android:padding="5dp"
+            android:text="私人医生"
+            android:textColor="@color/txt_set_selector"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#fff"
+            android:button="@null"
+            android:gravity="left"
+            android:padding="5dp"
+            android:text="档案管理"
+            android:textColor="@color/txt_set_selector"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#fff"
+            android:button="@null"
+            android:gravity="left"
+            android:padding="5dp"
+            android:text="健康计划"
+            android:textColor="@color/txt_set_selector"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+</LinearLayout>

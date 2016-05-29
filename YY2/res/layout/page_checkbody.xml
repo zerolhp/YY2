@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/checkbody_head" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#d9d9d9"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="快速检测"
+        android:textColor="#4a86e8"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/checkbody_btn_selector"
+        android:text="血压检测"
+        android:textColor="@color/txt_selector"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/checkbody_btn_selector"
+        android:text="血氧检测"
+        android:textColor="@color/txt_selector"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/checkbody_btn_selector"
+        android:text="血糖检测"
+        android:textColor="@color/txt_selector"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/checkbody_btn_selector"
+        android:text="体温检测"
+        android:textColor="@color/txt_selector"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/checkbody_btn_selector"
+        android:text="体质检测"
+        android:textColor="@color/txt_selector"
+        android:textSize="18sp" />
+
+</LinearLayout>
